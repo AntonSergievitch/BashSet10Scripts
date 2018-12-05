@@ -1,0 +1,1 @@
+grep -Ili 'Does not detect printer URI' logs/*.log | sed -e 's/.log//' -e 's/logs\///' | sed ':a;N;$!ba;s/\n/, /g'

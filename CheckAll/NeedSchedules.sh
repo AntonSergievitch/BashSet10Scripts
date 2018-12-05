@@ -1,0 +1,1 @@
+grep -Ili 'No schedule 4' logs/*.log | sed -e 's/.log//' -e 's/logs\///' #| sed ':a;N;$!ba;s/\n/, /g'

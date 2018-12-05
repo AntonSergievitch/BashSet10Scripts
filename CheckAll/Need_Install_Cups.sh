@@ -1,0 +1,1 @@
+grep -Ili 'Cups' logs/*.log | sed -e 's/.log//' -e 's/logs\///'

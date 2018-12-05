@@ -1,0 +1,1 @@
+grep -Ili 'reboot' logs/*.log | sed -e 's/.log//' -e 's/logs\///'

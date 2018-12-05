@@ -1,0 +1,1 @@
+grep -Il 'All ok' logs/*.log | xargs rm -f
