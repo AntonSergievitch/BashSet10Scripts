@@ -1,0 +1,4 @@
+{"xml":"D:\\SetRetail10",
+"ReplaceInValue":[{"NewSubStr":"$ServerIP","OldSubStr":"172.29.3.180"},{"NewSubStr":"$CentrumIP","OldSubStr":"172.29.23.148"},{"NewSubStr":"$INN","OldSubStr":"123456789012"}],
+"ReplaceInAttrWhereOtherAttr":[{"SearchNode":"*[contains(@key,'shop')]","ReplaceAttr":"value","GetValueFrom":"key"},{"SearchNode":"*[contains(@key,'cash')]","ReplaceAttr":"value","GetValueFrom":"key"}]
+}
